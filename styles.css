@@ -21,7 +21,12 @@ body {
 }
 
 .google-img {
-  height: 92;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  width: auto;
+  cursor: default;
 }
 
 .search-container {
